@@ -1,5 +1,3 @@
-export type PostImportDeviceConfigResponseFoo = (unknown);
-
-export interface NotificationSourcesResponseFoo {
+export type Interface = ({
     [key: string]: unknown;
 });
