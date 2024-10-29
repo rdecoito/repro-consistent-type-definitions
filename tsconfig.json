@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"lib": ["ESNext", "DOM", "DOM.Iterable"],
+		"module": "ESNext",
+		"skipLibCheck": true,
+		"allowUmdGlobalAccess": true,
+
+		"noEmitOnError": true,
+		"allowSyntheticDefaultImports": true,
+		"declaration": true,
+		"moduleResolution": "Node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"useDefineForClassFields": true,
+		"outDir": "build/",
+		"jsx": "react-jsx",
+
+		/* Linting */
+		"strict": true
+	},
+	"include": ["src"],
+	"exclude": ["node_modules/**/*"]
+}
+
